@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Paint</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<div id="root">
+		<canvas id="canva-block" class="canva-area"></canvas>
+		<div class="controls-block">
+			<select id="instrument">
+				<option>Pen</option>
+				<option>Eraser</option>
+			</select>
+			<input type="color" id="color">
+			<select id="size">
+				<option>1</option>
+				<option>2</option>
+				<option>4</option>
+				<option>8</option>
+			</select>
+			<button id="clear-btn" class="controls-block-btn">Clear canvas</button>
+		</div>
+	</div>
+	<script src="script.js" defer></script>
+</body>
+</html>
